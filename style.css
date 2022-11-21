@@ -151,6 +151,11 @@ main .main-container {
     padding: 1em 1.3em;
   }
 
+  main .main-container .box .top {
+    background-color: white;
+    border-radius: 8px 8px 0 0;
+  }
+
   main .main-container .box .center {
     background-color: var(--Cyan);
   }
@@ -217,6 +222,8 @@ main .main-container {
 
   main .main-container .box .top {
     grid-area: top;
+    background-color: white;
+    border-radius: 8px 8px 0 0;
   }
 
   main .main-container .box .center {
