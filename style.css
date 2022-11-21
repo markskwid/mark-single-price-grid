@@ -243,6 +243,12 @@ main .main-container {
     font-family: "Karla", sans-serif;
     margin: 0.6em 0;
     box-shadow: 0 5px 5px 1px rgba(1, 1, 1, 0.2);
+    cursor: pointer;
+    transition: 0.3s ease-in;
+  }
+
+  main .main-container .box .center button:hover {
+    background-color: hsl(71, 73%, 44%);
   }
 
   main .main-container .box .bottom {
